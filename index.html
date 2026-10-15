@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифрлық Лаборатория | 8.3.1.3 While циклі</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen">
+    <!-- Навигация -->
+    <nav class="border-b border-slate-800 px-6 py-4 flex justify-between items-center bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+        <div class="flex items-center space-x-3">
+            <div class="bg-indigo-600 p-2 rounded-xl font-bold text-xl shadow-lg shadow-indigo-500/30">🚀 ЦЛ</div>
+            <span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Цифрлық Лаборатория</span>
+        </div>
+        <div class="space-x-6 text-sm">
+            <a href="index.html" class="text-indigo-400 font-semibold">Тапсырмалар тізімі</a>
+            <span class="text-slate-500">Информатика кабинеті</span>
+        </div>
+    </nav>
+
+    <!-- Негізгі контент -->
+    <main class="max-w-6xl mx-auto px-6 py-10">
+        <header class="mb-10">
+            <div class="inline-block bg-indigo-500/10 text-indigo-400 text-xs font-semibold px-3 py-1 rounded-full mb-3 border border-indigo-500/20">
+                Оқу мақсаты: 8.3.1.3 — While циклдік операторын қолдану
+            </div>
+            <h1 class="text-3xl font-extrabold mb-2 tracking-tight">Автоматты Тексеру Жүйесі</h1>
+            <p class="text-slate-400">Төмендегі тізімнен тапсырманы таңдап, Python тілінде шешу жолын жазыңыз. Жүйе оны автоматты түрде тексереді.</p>
+        </header>
+
+        <!-- Тапсырмалар тізімі (Grid) -->
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- 1-есеп -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-indigo-500/50 transition duration-300 flex flex-col justify-between shadow-xl">
+                <div>
+                    <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full">Орташа • Сандар</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">1. Сан цифрларының қосындысы</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Берілген натурал санның цифрларының қосындысын <code>while</code> циклі арқылы есептейтін функция жазыңыз.</p>
+                </div>
+                <a href="lab.html?task=1" class="w-full bg-indigo-600 hover:bg-indigo-500 text-center py-3 rounded-xl font-medium transition shadow-lg shadow-indigo-600/20">Тапсырманы бастау</a>
+            </div>
+
+            <!-- 2-есеп -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-500/50 transition duration-300 flex flex-col justify-between shadow-xl">
+                <div>
+                    <span class="bg-cyan-500/10 text-cyan-400 text-xs font-semibold px-3 py-1 rounded-full">Күрделі • Логика</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">2. Санды кері ретпен жазу</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Берілген натурал санның цифрларын кері тәртіппен шығаратын бағдарлама құрыңыз (Мысалы: 1234 -> 4321).</p>
+                </div>
+                <a href="lab.html?task=2" class="w-full bg-slate-800 hover:bg-slate-700 text-center py-3 rounded-xl font-medium transition">Тапсырманы бастау</a>
+            </div>
+
+            <!-- 3-есеп (Жаңа) -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 transition duration-300 flex flex-col justify-between shadow-xl">
+                <div>
+                    <span class="bg-amber-500/10 text-amber-400 text-xs font-semibold px-3 py-1 rounded-full">Орташа • Шартты цикл</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">3. Нөл енгізгенге дейінгі қосынды</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Пайдаланушы <code>0</code> енгізгенге дейін сандарды қабылдап, барлық енгізілген сандардың қосындысын шығаратын код жазыңыз.</p>
+                </div>
+                <a href="lab.html?task=3" class="w-full bg-slate-800 hover:bg-slate-700 text-center py-3 rounded-xl font-medium transition">Тапсырманы бастау</a>
+            </div>
+
+            <!-- 4-есеп (Жаңа) -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-purple-500/50 transition duration-300 flex flex-col justify-between shadow-xl">
+                <div>
+                    <span class="bg-purple-500/10 text-purple-400 text-xs font-semibold px-3 py-1 rounded-full">Күрделі • Есептеу</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">4. Санның цифрлар санын табу</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Берілген натурал санның неше цифрдан тұратынын <code>while</code> циклі арқылы анықтайтын функция құрыңыз.</p>
+                </div>
+                <a href="lab.html?task=4" class="w-full bg-slate-800 hover:bg-slate-700 text-center py-3 rounded-xl font-medium transition">Тапсырманы бастау</a>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
